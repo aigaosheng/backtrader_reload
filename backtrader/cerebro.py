@@ -994,7 +994,8 @@ class Cerebro(with_metaclass(MetaParams, object)):
                 figs.append(rfig)
 
             plotter.show()
-
+        # self.figs_draw = figs
+        # print(f'{figs}')
         return figs
 
     def __call__(self, iterstrat):
